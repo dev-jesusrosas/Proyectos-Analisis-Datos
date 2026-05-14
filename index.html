@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <head>
+    <meta charset="UTF-8">
+        <link rel="icon" type="image/jpg" href="mn.jpg">
+    
+    <title>Jesús Muñoz Rosas | Data Analyst</title>
+    </head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jesús Muñoz Rosas | Data Analyst & Systems Engineer</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=DM+Sans:ital,wght@0,300;0,400;0,500;1,300&display=swap" rel="stylesheet">
+</head>
+<body>
+ 
+    <!-- Fondo animado -->
+    <div class="bg-grid"></div>
+    <div class="bg-orb orb-1"></div>
+    <div class="bg-orb orb-2"></div>
+ 
+    <nav class="navbar">
+        <div class="container nav-inner">
+            <div class="logo">J<span>MR</span></div>
+            <ul class="nav-links">
+                <li><a href="#perfil">Perfil</a></li>
+                <li><a href="#stack">Stack</a></li>
+                <li><a href="#proyectos">Proyectos</a></li>
+                <li><a href="#contacto" class="nav-cta">Contacto</a></li>
+            </ul>
+            <button class="menu-toggle" id="menuToggle" aria-label="Menú">
+                <span></span><span></span><span></span>
+            </button>
+        </div>
+    </nav>
+ 
+    <!-- Mobile menu -->
+    <div class="mobile-menu" id="mobileMenu">
+        <ul>
+            <li><a href="#perfil" onclick="closeMobileMenu()">Perfil</a></li>
+            <li><a href="#stack" onclick="closeMobileMenu()">Stack</a></li>
+            <li><a href="#proyectos" onclick="closeMobileMenu()">Proyectos</a></li>
+            <li><a href="#contacto" onclick="closeMobileMenu()">Contacto</a></li>
+        </ul>
+    </div>
+ 
+    <!-- ===== HERO ===== -->
+    <header class="hero" id="perfil">
+        <div class="container hero-inner">
+            <div class="hero-text">
+                <span class="badge">
+                    <span class="badge-dot"></span>
+                    Disponible para Prácticas Pre-Profesionales
+                </span>
+                <h1 class="hero-name">
+                    <span class="line">Jesús</span>
+                    <span class="line accent-line">Muñoz</span>
+                    <span class="line">Rosas</span>
+                </h1>
+                <p class="hero-role">Ingeniero de Sistemas en formación <em>&amp;</em> Analista de Datos</p>
+                <p class="hero-desc">
+                    Convirtiendo datos en oportunidades estratégicas mediante SQL avanzado, Power BI y Excel. Chorrillos, Lima.
+                </p>
+                <div class="hero-btns">
+                    <a href="#proyectos" class="btn btn-primary">
+                        <span>Ver Proyectos</span>
+                        <svg width="16" height="16" viewBox="0 0 16 16" fill="none"><path d="M3 8h10M9 4l4 4-4 4" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                    </a>
+                    <a href="https://linkedin.com/in/jesus-muñoz-rosas-data" target="_blank" rel="noopener" class="btn btn-ghost">LinkedIn</a>
+                </div>
+            </div>
+            <div class="hero-card-wrap">
+                <div class="hero-card">
+                    <div class="card-label">Skills en Demanda</div>
+                    <div class="skill-pills">
+                        <span class="pill pill-blue">SQL</span>
+                        <span class="pill pill-dark">Power BI</span>
+                        <span class="pill pill-blue">DAX</span>
+                        <span class="pill pill-dark">Excel VBA</span>
+                        <span class="pill pill-blue">MySQL</span>
+                        <span class="pill pill-dark">Scrum</span>
+                        <span class="pill pill-blue">AWS RDS</span>
+                        <span class="pill pill-dark">KPIs</span>
+                    </div>
+                    <div class="card-divider"></div>
+                    <div class="stat-row">
+                        <div class="stat">
+                            <span class="stat-num">2+</span>
+                            <span class="stat-label">Proyectos</span>
+                        </div>
+                        <div class="stat">
+                            <span class="stat-num">SFC™</span>
+                            <span class="stat-label">Certificado</span>
+                        </div>
+                        <div class="stat">
+                            <span class="stat-num">+15%</span>
+                            <span class="stat-label">Datos Limpios</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="hero-scroll">
+            <span>Scroll</span>
+            <div class="scroll-line"></div>
+        </div>
+    </header>
+ 
+    <!-- ===== STACK ===== -->
+    <section class="stack" id="stack">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-num">01</span>
+                <h2 class="section-title">Stack Técnico</h2>
+            </div>
+            <div class="grid-stack">
+                <div class="stack-card" style="--delay:0s">
+                    <div class="stack-icon">
+                        <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><rect x="3" y="3" width="18" height="18" rx="2"/><path d="M3 9h18M9 21V9"/></svg>
+                    </div>
+                    <h3>Análisis de Datos</h3>
+                    <p>SQL Avanzado, Power BI con DAX, Excel con VBA y Macros para automatización</p>
+                    <div class="stack-tags">
+                        <span>SQL</span><span>DAX</span><span>VBA</span>
+                    </div>
+                </div>
+                <div class="stack-card" style="--delay:0.1s">
+                    <div class="stack-icon">
+                        <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><ellipse cx="12" cy="5" rx="9" ry="3"/><path d="M3 5v14c0 1.66 4.03 3 9 3s9-1.34 9-3V5"/><path d="M3 12c0 1.66 4.03 3 9 3s9-1.34 9-3"/></svg>
+                    </div>
+                    <h3>Bases de Datos</h3>
+                    <p>MySQL, MS SQL Server y despliegue en nube con AWS RDS para soluciones escalables</p>
+                    <div class="stack-tags">
+                        <span>MySQL</span><span>MSSQL</span><span>AWS RDS</span>
+                    </div>
+                </div>
+                <div class="stack-card" style="--delay:0.2s">
+                    <div class="stack-icon">
+                        <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><rect x="2" y="3" width="20" height="14" rx="2"/><path d="M8 21h8M12 17v4"/></svg>
+                    </div>
+                    <h3>Infraestructura</h3>
+                    <p>Cisco Networking, Windows Server y administración del ecosistema Microsoft 365</p>
+                    <div class="stack-tags">
+                        <span>Cisco</span><span>Win Server</span><span>M365</span>
+                    </div>
+                </div>
+                <div class="stack-card" style="--delay:0.3s">
+                    <div class="stack-icon">
+                        <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M12 2L2 7l10 5 10-5-10-5z"/><path d="M2 17l10 5 10-5"/><path d="M2 12l10 5 10-5"/></svg>
+                    </div>
+                    <h3>Metodologías</h3>
+                    <p>Scrum certificado SFC™, gestión ágil de proyectos y seguimiento de KPIs estratégicos</p>
+                    <div class="stack-tags">
+                        <span>Scrum</span><span>SFC™</span><span>KPIs</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+ 
+    <!-- ===== PROYECTOS ===== -->
+    <section class="proyectos" id="proyectos">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-num">02</span>
+                <h2 class="section-title">Proyectos Destacados</h2>
+            </div>
+            <div class="grid-proyectos">
+ 
+                <article class="project-card project-featured">
+                    <div class="project-glow"></div>
+                    <div class="project-content">
+                        <div class="project-top">
+                            <span class="project-tag tag-blue">Power BI</span>
+                            <span class="project-num">01</span>
+                        </div>
+                        <h3>Dashboard de Préstamos Bancarios</h3>
+                        <p>Diseño de modelo estrella y medidas DAX avanzadas para análisis integral de riesgos crediticios en tiempo real.</p>
+                        <ul class="impact">
+                            <li>Visualización de riesgos mejorada significativamente</li>
+                            <li>Modelo Star Schema optimizado y documentado</li>
+                            <li>Reportes automáticos para decisiones gerenciales</li>
+                        </ul>
+                        <div class="project-footer">
+                            <div class="tech-dots">
+                                <span>Power BI</span>
+                                <span>DAX</span>
+                                <span>Star Schema</span>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+ 
+                <article class="project-card">
+                    <div class="project-content">
+                        <div class="project-top">
+                            <span class="project-tag tag-dark">SQL</span>
+                            <span class="project-num">02</span>
+                        </div>
+                        <h3>Limpieza y Normalización de Datos</h3>
+                        <p>Procesamiento masivo de transacciones usando Joins, CTEs y Subqueries para garantizar calidad e integridad.</p>
+                        <ul class="impact">
+                            <li>+15% en integridad de datos verificada</li>
+                            <li>Automatización completa de reportes de calidad</li>
+                            <li>Reducción de errores en pipeline de datos</li>
+                        </ul>
+                        <div class="project-footer">
+                            <div class="tech-dots">
+                                <span>SQL</span>
+                                <span>CTEs</span>
+                                <span>Joins</span>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+ 
+            </div>
+        </div>
+    </section>
+ 
+    <!-- ===== CONTACTO ===== -->
+    <section class="contacto" id="contacto">
+        <div class="container">
+            <div class="contacto-inner">
+                <div class="contacto-text">
+                    <span class="section-num">03</span>
+                    <h2 class="section-title">¿Hablamos?</h2>
+                    <p>Estoy buscando activamente prácticas pre-profesionales donde pueda aportar valor con datos y análisis estratégico.</p>
+                    <div class="contact-info">
+                        <div class="contact-item">
+                            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg>
+                            <span>Chorrillos, Lima, Perú</span>
+                        </div>
+                        <div class="contact-item">
+                            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+                            <span>contacto@jesussistemas.com</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="contacto-links">
+                    <a href="mailto:contacto@jesussistemas.com" class="contact-card">
+                        <div class="contact-card-icon">✉</div>
+                        <div>
+                            <strong>Email</strong>
+                            <span>contacto@jesussistemas.com</span>
+                        </div>
+                        <svg class="arrow" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M7 17L17 7M7 7h10v10"/></svg>
+                    </a>
+                    <a href="https://github.com/dev-jesusrosas" target="_blank" rel="noopener" class="contact-card">
+                        <div class="contact-card-icon">⌥</div>
+                        <div>
+                            <strong>GitHub</strong>
+                            <span>dev-jesusrosas</span>
+                        </div>
+                        <svg class="arrow" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M7 17L17 7M7 7h10v10"/></svg>
+                    </a>
+                    <a href="https://linkedin.com/in/jesus-muñoz-rosas-data" target="_blank" rel="noopener" class="contact-card">
+                        <div class="contact-card-icon">in</div>
+                        <div>
+                            <strong>LinkedIn</strong>
+                            <span>jesus-muñoz-rosas-data</span>
+                        </div>
+                        <svg class="arrow" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M7 17L17 7M7 7h10v10"/></svg>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+ 
+    <footer class="footer">
+        <div class="container footer-inner">
+            <div class="logo">J<span>MR</span></div>
+            <p>&copy; 2026 Jesús Muñoz Rosas — Construido con HTML & CSS puro</p>
+            <a href="#perfil" class="back-top">↑ Inicio</a>
+        </div>
+    </footer>
+ 
+    <script>
+        // Mobile menu toggle
+        const menuToggle = document.getElementById('menuToggle');
+        const mobileMenu = document.getElementById('mobileMenu');
+        menuToggle.addEventListener('click', () => {
+            mobileMenu.classList.toggle('open');
+            menuToggle.classList.toggle('active');
+        });
+        function closeMobileMenu() {
+            mobileMenu.classList.remove('open');
+            menuToggle.classList.remove('active');
+        }
+ 
+        // Scroll reveal
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(el => {
+                if (el.isIntersecting) el.target.classList.add('visible');
+            });
+        }, { threshold: 0.12 });
+        document.querySelectorAll('.stack-card, .project-card, .contact-card').forEach(el => observer.observe(el));
+ 
+        // Navbar scroll style
+        window.addEventListener('scroll', () => {
+            document.querySelector('.navbar').classList.toggle('scrolled', window.scrollY > 40);
+        });
+    </script>
+</body>
+</html>

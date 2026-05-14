@@ -1,0 +1,11 @@
+Model Information:
+* title:	LINUX-CHAR
+* source:	https://sketchfab.com/3d-models/linux-char-c564c3e9075c4a8583b72f8ce919943a
+* author:	Fundasoft (https://sketchfab.com/fundasoft)
+
+Model License:
+* license type:	CC-BY-NC-4.0 (http://creativecommons.org/licenses/by-nc/4.0/)
+* requirements:	Author must be credited. No commercial use.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "LINUX-CHAR" (https://sketchfab.com/3d-models/linux-char-c564c3e9075c4a8583b72f8ce919943a) by Fundasoft (https://sketchfab.com/fundasoft) licensed under CC-BY-NC-4.0 (http://creativecommons.org/licenses/by-nc/4.0/)
