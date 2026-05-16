@@ -1,0 +1,7 @@
+id,date,customer_id,product,category,quantity,price,region,salesperson
+1,2024-01-05,101,Laptop,Electronics,1,1200,Lima,Carlos
+2,2024-01-07,102,Mouse,Electronics,2,25,Lima,Ana
+3,2024-02-10,103,Desk,Furniture,1,300,Arequipa,Juan
+4,2024-03-15,104,Chair,Furniture,4,75,Cusco,Lucia
+5,2024-04-20,105,Phone,Electronics,3,800,Lima,Carlos
+6,2024-05-25,106,Tablet,Electronics,2,400,Piura,Ana
