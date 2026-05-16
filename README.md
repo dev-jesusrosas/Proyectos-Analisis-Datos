@@ -43,7 +43,7 @@ por encima del mes anterior. El script detecta automáticamente transacciones
 fuera de 2 desviaciones estándar del promedio.
  
 **Herramientas:** MySQL 8.0 · JOINs · CTEs · Window Functions · RANK · LAG  
-[Ver proyecto](./03-Analisis-SQL-Ventas-Retail)
+[Ver proyecto](./03%20—%20Análisis%20de%20Ventas%20Retail%20con%20SQL)
  
 ---
  
