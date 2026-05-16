@@ -1,0 +1,26 @@
+product_id,product,category,cost
+1,Laptop HP 15,Electronica,1800
+2,Laptop Dell Inspiron,Electronica,2100
+3,Tablet Samsung,Electronica,650
+4,Audífonos Sony,Electronica,200
+5,Mouse Logitech,Electronica,50
+6,Polo Algodón,Ropa,30
+7,Pantalón Jean,Ropa,55
+8,Zapatillas Running,Ropa,100
+9,Casaca Impermeable,Ropa,130
+10,Vestido Casual,Ropa,50
+11,Silla Escritorio,Hogar,180
+12,Lámpara LED,Hogar,35
+13,Cafetera Digital,Hogar,110
+14,Set Cubiertos,Hogar,45
+15,Alfombra Decorativa,Hogar,80
+16,Bicicleta Estática,Deportes,600
+17,Mancuernas 5kg,Deportes,40
+18,Colchoneta Yoga,Deportes,28
+19,Cuerda de Saltar,Deportes,15
+20,Botella Térmica,Deportes,22
+21,Perfume Importado,Belleza,120
+22,Set Maquillaje,Belleza,80
+23,Crema Facial,Belleza,45
+24,Secadora de Cabello,Belleza,90
+25,Afeitadora Eléctrica,Belleza,60

@@ -1,0 +1,51 @@
+customer_id,name,email,region,segment
+1,Luis Quispe,luis.quispe1@email.com,Lima Este,Premium
+2,Diego Vega,diego.vega2@email.com,Lima Norte,Ocasional
+3,Ricardo Torres,ricardo.torres3@email.com,Callao,Regular
+4,Carlos Quispe,carlos.quispe4@email.com,Lima Norte,Premium
+5,Diego González,diego.gonzález5@email.com,Callao,Premium
+6,Ricardo Mendoza,ricardo.mendoza6@email.com,Callao,Regular
+7,Diego Sánchez,diego.sánchez7@email.com,Callao,Regular
+8,Ana Salinas,ana.salinas8@email.com,Lima Centro,Regular
+9,Sofía Vega,sofía.vega9@email.com,Lima Sur,Regular
+10,Luis Torres,luis.torres10@email.com,Lima Centro,Premium
+11,Andrés López,andrés.lópez11@email.com,Callao,Regular
+12,Carlos Sánchez,carlos.sánchez12@email.com,Callao,Premium
+13,Carmen Torres,carmen.torres13@email.com,Callao,Regular
+14,Héctor López,héctor.lópez14@email.com,Callao,Premium
+15,María Ramos,maría.ramos15@email.com,Lima Sur,Regular
+16,María Castro,maría.castro16@email.com,Lima Norte,Regular
+17,Sofía Sánchez,sofía.sánchez17@email.com,Lima Este,Premium
+18,Andrés López,andrés.lópez18@email.com,Lima Sur,Ocasional
+19,Sofía Torres,sofía.torres19@email.com,Callao,Ocasional
+20,Jorge Morales,jorge.morales20@email.com,Lima Sur,Premium
+21,Lucía Martínez,lucía.martínez21@email.com,Lima Este,Ocasional
+22,Ricardo Castro,ricardo.castro22@email.com,Lima Este,Premium
+23,Diego Ramos,diego.ramos23@email.com,Lima Este,Regular
+24,Sofía Torres,sofía.torres24@email.com,Lima Sur,Ocasional
+25,Valeria Mendoza,valeria.mendoza25@email.com,Lima Centro,Regular
+26,Lucía Vega,lucía.vega26@email.com,Lima Este,Premium
+27,Diego Morales,diego.morales27@email.com,Callao,Regular
+28,Gabriela Rodríguez,gabriela.rodríguez28@email.com,Callao,Regular
+29,Andrés Castro,andrés.castro29@email.com,Lima Sur,Ocasional
+30,Fernando Torres,fernando.torres30@email.com,Lima Norte,Premium
+31,Patricia Salinas,patricia.salinas31@email.com,Lima Centro,Ocasional
+32,María Martínez,maría.martínez32@email.com,Lima Centro,Ocasional
+33,Lucía González,lucía.gonzález33@email.com,Lima Este,Ocasional
+34,Ana Huanca,ana.huanca34@email.com,Callao,Regular
+35,Valeria Huanca,valeria.huanca35@email.com,Lima Este,Regular
+36,Jorge Sánchez,jorge.sánchez36@email.com,Lima Norte,Ocasional
+37,Sofía González,sofía.gonzález37@email.com,Lima Sur,Ocasional
+38,Luis Díaz,luis.díaz38@email.com,Callao,Ocasional
+39,Rosa Vega,rosa.vega39@email.com,Lima Este,Premium
+40,Ricardo González,ricardo.gonzález40@email.com,Lima Norte,Ocasional
+41,Valeria Pérez,valeria.pérez41@email.com,Lima Norte,Premium
+42,Andrés Díaz,andrés.díaz42@email.com,Lima Sur,Premium
+43,Diego Jiménez,diego.jiménez43@email.com,Lima Norte,Premium
+44,Fernando Torres,fernando.torres44@email.com,Callao,Premium
+45,Patricia Pérez,patricia.pérez45@email.com,Callao,Premium
+46,Sofía González,sofía.gonzález46@email.com,Callao,Regular
+47,Rosa Morales,rosa.morales47@email.com,Lima Sur,Ocasional
+48,Miguel Martínez,miguel.martínez48@email.com,Lima Este,Regular
+49,Elena Sánchez,elena.sánchez49@email.com,Lima Norte,Premium
+50,Diego Torres,diego.torres50@email.com,Lima Este,Premium
