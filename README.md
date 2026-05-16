@@ -15,7 +15,7 @@ requería revisar filas manualmente ahora se filtra en segundos.
 ticket promedio de S/. 1,407. Rosa Mendoza lidera ventas con S/. 129,459 anuales.
  
 **Herramientas:** Excel · SUMPRODUCT · INDICE+COINCIDIR · BUSCARV · Tablas dinámicas  
-[Ver proyecto](./01-Analisis-Ventas-Retail-Excel)
+[Ver proyecto](./01—Análisis-de-Ventas-Retail-con-Excel)
  
 ---
  
