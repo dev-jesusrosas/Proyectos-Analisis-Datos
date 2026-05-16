@@ -29,7 +29,7 @@ en 2021. Los clientes menores de 30 años representan el 42.1% del total,
 dato no visible antes del dashboard.
  
 **Herramientas:** Power BI · DAX · Power Query · Modelado dimensional  
-[Ver proyecto](./02-Dashboard-BI-Prestamos-Bancarios)
+[Ver proyecto](./02%20—%20Dashboard%20de%20Préstamos%20Personales%20con%20Power%20BI)
  
 ---
  
