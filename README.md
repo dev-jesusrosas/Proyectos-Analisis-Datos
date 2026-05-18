@@ -46,6 +46,22 @@ fuera de 2 desviaciones estándar del promedio.
 [Ver proyecto](./03%20—%20Análisis%20de%20Ventas%20Retail%20con%20SQL)
  
 ---
+
+### 04 — Textil del Valle 2026 Pipeline de Datos Relacionales con MySQL 8 y Power BI
+Base de datos relacional optimizada con 1,770 transacciones integradas y 4 tablas 
+interconectadas mediante foreign keys. Incluye el pipeline completo de carga masiva 
+en la nube, simulación de estados operativos ponderados por año cronológico (2024-2026) 
+y diseño UI/UX de un Dashboard Ejecutivo en modo oscuro.
+ 
+**Resultado clave:** Reducción del 80% en el tiempo de carga y estrés de CPU 
+en AWS RDS mediante directivas de inserción en bloque y transacciones agrupadas (COMMIT).
+El modelo analítico estrella detecta cuellos de botella concentrando automáticamente 
+el ~85% de la carga del 2026 en estados Pendiente y En Proceso.
+ 
+**Herramientas:** MySQL 8.0 / AWS RDS · Bulk Insert · Transacciones · DDL Idempotente · Power Query · JSON Themes (Modo Oscuro)
+[Ver proyecto](04%20—%20Proyecto%20de%20Ingeniería%20de%20Datos%20en%20SQL%20y%20Business%20Intelligence%20Dashboard%20con%20Power%20BI%20para%20Textil%20del%20Valle.)
+ 
+---
  
 ## Tecnologías
  
