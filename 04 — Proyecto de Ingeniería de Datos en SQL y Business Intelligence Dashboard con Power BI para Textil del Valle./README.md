@@ -127,10 +127,12 @@ Diseño UI/UX alineado con los estándares de Microsoft Fabric:
 │   └── textil_del_valle_analytics.pbix
 │
 └── imagenes/
-    ├── 01-modelo-relacional.png
-    ├── 02-esquema-estrella-power-bi.png
-    ├── 03-dashboard-modo-oscuro.png
-    └── 04-kpis-ejecutivos.png
+    ├── 01-dashboard-modo-oscuro.png
+    ├── 02-kpis-ejecutivos.png
+    ├── 03-kpis-ejecutivos_entregado.png
+    ├── 04-kpis-ejecutivos_pendiente.png
+    ├── 05-esquema-estrella-power-bi.png
+    └── 06-modelo-relacional.png
 ```
  
 ---
