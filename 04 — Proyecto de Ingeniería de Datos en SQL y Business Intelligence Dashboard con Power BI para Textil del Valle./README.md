@@ -175,5 +175,4 @@ SOURCE SQL_Scripts/10_textil_valle_idempotente_v2.sql;
 **Jesús Muñoz Rosas** — Ingeniería de Sistemas · Analítica de Datos
  
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Perfil-0077B5?style=flat&logo=linkedin)](https://www.linkedin.com/)
-[![Portfolio](https://img.shields.io/badge/Portfolio-jesussistemas.com-orange?style=flat&logo=google-chrome)](https://jesussistemas.com)
  
