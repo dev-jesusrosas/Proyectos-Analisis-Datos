@@ -14,7 +14,8 @@ requería revisar filas manualmente ahora se filtra en segundos.
 **Resultado clave:** Electrónica concentra el 71.7% del revenue total con un
 ticket promedio de S/. 1,407. Rosa Mendoza lidera ventas con S/. 129,459 anuales.
  
-**Herramientas:** Excel · SUMPRODUCT · INDICE+COINCIDIR · BUSCARV · Tablas dinámicas  
+**Herramientas:** Excel · SUMPRODUCT · INDICE+COINCIDIR · BUSCARV · Tablas dinámicas
+
 [Ver proyecto](./01%20—%20Análisis%20de%20Ventas%20Retail%20con%20Excel)
  
 ---
@@ -29,6 +30,7 @@ en 2021. Los clientes menores de 30 años representan el 42.1% del total,
 dato no visible antes del dashboard.
  
 **Herramientas:** Power BI · DAX · Power Query · Modelado dimensional  
+
 [Ver proyecto](./02%20—%20Dashboard%20de%20Préstamos%20Personales%20con%20Power%20BI)
  
 ---
@@ -42,7 +44,8 @@ tendencia mensual con variación, ranking por categoría y detección de anomal�
 por encima del mes anterior. El script detecta automáticamente transacciones
 fuera de 2 desviaciones estándar del promedio.
  
-**Herramientas:** MySQL 8.0 · JOINs · CTEs · Window Functions · RANK · LAG  
+**Herramientas:** MySQL 8.0 · JOINs · CTEs · Window Functions · RANK · LAG 
+
 [Ver proyecto](./03%20—%20Análisis%20de%20Ventas%20Retail%20con%20SQL)
  
 ---
