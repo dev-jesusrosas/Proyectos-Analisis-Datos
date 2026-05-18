@@ -58,7 +58,8 @@ en AWS RDS mediante directivas de inserción en bloque y transacciones agrupadas
 El modelo analítico estrella detecta cuellos de botella concentrando automáticamente 
 el ~85% de la carga del 2026 en estados Pendiente y En Proceso.
  
-**Herramientas:** MySQL 8.0 / AWS RDS · Bulk Insert · Transacciones · DDL Idempotente · Power Query · JSON Themes 
+**Herramientas:** MySQL 8.0 / AWS RDS · Bulk Insert · Transacciones · DDL Idempotente · Power Query · JSON Themes
+
 [Ver proyecto](04%20—%20Proyecto%20de%20Ingeniería%20de%20Datos%20en%20SQL%20y%20Business%20Intelligence%20Dashboard%20con%20Power%20BI%20para%20Textil%20del%20Valle.)
  
 ---
