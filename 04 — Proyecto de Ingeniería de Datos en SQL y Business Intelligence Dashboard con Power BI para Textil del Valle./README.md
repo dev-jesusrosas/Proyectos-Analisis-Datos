@@ -117,12 +117,9 @@ Diseño UI/UX alineado con los estándares de Microsoft Fabric:
 ├── README.md
 │
 ├── SQL_Scripts/
-│   ├── 10_textil_valle_idempotente_v2.sql   ← Script maestro (DDL + DML + optimización)
-│   ├── 01_clientes_insert.sql
-│   ├── 02_empleados_insert.sql
-│   ├── 03_pedidos_insert.sql
-│   └── 04_detalle_pedidos_insert.sql
-│
+│   └── 10_textil_valle_idempotente_v2.sql   ← Script maestro (DDL + DML + optimización)
+│   
+│   
 ├── BI_Dashboard/
 │   └── textil_del_valle_analytics.pbix
 │
