@@ -65,7 +65,7 @@ de fraude en retail.
 
 **Stack:** `MySQL 8.0` `JOINs` `CTEs` `Window Functions` `RANK` `LAG`
 
-![Pipeline SQL](https://github.com/dev-jesusrosas/Proyectos-Analisis-Datos/blob/22b083903cf80f98d81ebfd79e0df0e4327aef3f/03%20%E2%80%94%20An%C3%A1lisis%20de%20Ventas%20Retail%20con%20SQL/Imagenes/05-deteccion-anomalias.png)
+![Pipeline SQL](https://github.com/dev-jesusrosas/Proyectos-Analisis-Datos/blob/4323c5c7afa24c7cd19d5e69349b63966e9429e5/03%20%E2%80%94%20An%C3%A1lisis%20de%20Ventas%20Retail%20con%20SQL/Imagenes/02-analisis-general.png)
 
 [→ Ver proyecto completo](./03%20—%20Análisis%20de%20Ventas%20Retail%20con%20SQL)
  
