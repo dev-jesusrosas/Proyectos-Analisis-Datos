@@ -81,7 +81,7 @@ en el Core, activando protocolo de cumplimiento regulatorio (SBS / UIF-Perú).
  
 **Herramientas:** Python 3.12 · Pandas 2.x · Data Quality (DQ) · ETL en RAM · Core-Banking (OLTP) · Deduplicación · LEFT JOIN · pathlib
 
-[Ver proyecto](04%20—%20Proyecto%20de%20Ingeniería%20de%20Datos%20en%20SQL%20y%20Business%20Intelligence%20Dashboard%20con%20Power%20BI%20para%20Textil%20del%20Valle.)
+[Ver proyecto](05%20—%20Pipeline%20Bancario%20de%20Auditoría%20y%20Calidad%20de%20Datos%20InkaBank%202026)
  
 ---
  
