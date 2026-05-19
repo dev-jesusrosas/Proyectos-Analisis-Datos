@@ -66,6 +66,25 @@ el ~85% de la carga del 2026 en estados Pendiente y En Proceso.
 [Ver proyecto](04%20—%20Proyecto%20de%20Ingeniería%20de%20Datos%20en%20SQL%20y%20Business%20Intelligence%20Dashboard%20con%20Power%20BI%20para%20Textil%20del%20Valle.)
  
 ---
+
+### 05 — InkaBank 2026 Pipeline Bancario de Auditoría y Calidad de Datos con Python y Pandas
+Motor ETL automatizado en memoria RAM con 7 transacciones crudas procesadas en < 15 ms, 6 reglas
+de calidad de datos encadenadas y 2 fuentes relacionales integradas mediante LEFT JOIN nativo en Pandas.
+Incluye simulación del Core Bancario con datos intencionalmente corruptos (duplicados, nulos, negativos 
+y clientes huérfanos) y un pipeline de auditoría idempotente con alertas de seguridad automáticas.
+ 
+**Resultado clave:** Detección automática del 100% de transacciones duplicadas y cuentas huérfanas sin 
+intervención humana, reduciendo el lote de 7 a 4 registros válidos mediante reglas DQ encadenadas. 
+El sistema identifica que el 25% del lote final corresponde a movimientos desde cuentas no registradas 
+en el Core, activando protocolo de cumplimiento regulatorio (SBS / UIF-Perú).
+
+ 
+**Herramientas:** Python 3.12 · Pandas 2.x · Data Quality (DQ) · ETL en RAM · Core-Banking (OLTP) · Deduplicación · LEFT JOIN · pathlib
+
+[Ver proyecto](04%20—%20Proyecto%20de%20Ingeniería%20de%20Datos%20en%20SQL%20y%20Business%20Intelligence%20Dashboard%20con%20Power%20BI%20para%20Textil%20del%20Valle.)
+ 
+---
+ 
  
 ## Tecnologías
  
