@@ -1,99 +1,139 @@
-# Portafolio de Análisis de Datos — Jesús Muñoz Rosas
- 
-Estudiante de Ingeniería de Sistemas (UPSB) con enfoque en análisis de datos
-e infraestructura TI. Este repositorio reúne proyectos aplicados donde trabajo
-el ciclo completo de datos: desde la limpieza hasta la visualización final.
- 
-## Proyectos
- 
-### 01 — Análisis de Ventas Retail con Excel
-Consolidé 243 transacciones de una tienda retail en un dashboard de KPIs que
-unifica 8 vendedores, 5 categorías y 5 regiones en una sola vista. Lo que antes
-requería revisar filas manualmente ahora se filtra en segundos.
- 
-**Resultado clave:** Electrónica concentra el 71.7% del revenue total con un
-ticket promedio de S/. 1,407. Rosa Mendoza lidera ventas con S/. 129,459 anuales.
- 
-**Herramientas:** Excel · SUMPRODUCT · INDICE+COINCIDIR · BUSCARV · Tablas dinámicas
+# Portafolio de Análisis de Datos · Jesús Muñoz Rosas
 
-[Ver proyecto](./01%20—%20Análisis%20de%20Ventas%20Retail%20con%20Excel)
- 
+**Data Analyst Jr.** con enfoque en SQL, Power BI y Python aplicados 
+a contextos reales del mercado peruano — retail, banca y logística.
+
+Este repositorio documenta 5 proyectos con ciclo completo de datos:
+ingesta → limpieza → modelado → visualización → insight accionable.
+
+📍 Lima, Perú · 🌐 portafolio.jesussistemas.com · 
+💼 linkedin.com/in/jesus-muñoz-rosas-data
+
+---
+## 01 — Análisis de Ventas Retail · Excel
+
+> **Impacto:** Consolidación de 243 transacciones en un dashboard de KPIs 
+> que elimina la revisión manual fila por fila — filtros en segundos.
+
+Dashboard que unifica 8 vendedores, 5 categorías y 5 regiones en una 
+sola vista. Incluye automatización de reportería con funciones avanzadas.
+
+**Hallazgo clave:** Electrónica concentra el 71.7% del revenue total 
+(ticket promedio S/. 1,407). El top vendedor acumula S/. 129,459 anuales, 
+superando en 2.3x al promedio del equipo.
+
+**Stack:** `Excel` `SUMPRODUCT` `INDICE+COINCIDIR` `BUSCARV` `Tablas dinámicas`
+
+![Dashboard Excel](https://github.com/dev-jesusrosas/Proyectos-Analisis-Datos/blob/22b083903cf80f98d81ebfd79e0df0e4327aef3f/01%20%E2%80%94%20An%C3%A1lisis%20de%20Ventas%20Retail%20con%20Excel/imagenes/01-dashboard-kpis.png)
+
+[→ Ver proyecto completo](./01%20—%20Análisis%20de%20Ventas%20Retail%20con%20Excel)
 ---
  
-### 02 — Dashboard de Préstamos Personales con Power BI
-Dashboard interactivo para seguimiento de préstamos bancarios 2021–2022.
-Modelo dimensional en esquema estrella que permite analizar 9 distritos,
-3 tipos de crédito y segmentación por edad y género en tiempo real.
- 
-**Resultado clave:** El 74.9% del desembolso corresponde a clientes masculinos
-en 2021. Los clientes menores de 30 años representan el 42.1% del total,
-dato no visible antes del dashboard.
- 
-**Herramientas:** Power BI · DAX · Power Query · Modelado dimensional  
+## 02 — Dashboard de Préstamos Personales · Power BI
 
-[Ver proyecto](./02%20—%20Dashboard%20de%20Préstamos%20Personales%20con%20Power%20BI)
- 
+> **Impacto:** Visibilidad en tiempo real de cartera bancaria 2021–2022 
+> que antes requería cruces manuales entre áreas.
+
+Modelo dimensional en esquema estrella con análisis de 9 distritos, 
+3 tipos de crédito y segmentación por edad y género.
+
+**Hallazgo clave:** El 74.9% del desembolso corresponde a clientes 
+masculinos en 2021. Los menores de 30 años representan el 42.1% del 
+volumen — segmento no identificado antes del dashboard, con potencial 
+directo para campañas de fidelización.
+
+**Stack:** `Power BI` `DAX` `Power Query` `Modelado dimensional (Star Schema)`
+
+![Dashboard Power BI](https://github.com/dev-jesusrosas/Proyectos-Analisis-Datos/blob/22b083903cf80f98d81ebfd79e0df0e4327aef3f/02%20%E2%80%94%20Dashboard%20de%20Pr%C3%A9stamos%20Personales%20con%20Power%20BI/Imagenes/03-dashboard-2022-filtrado.png)
+
+[→ Ver proyecto completo](./02%20—%20Dashboard%20de%20Préstamos%20Personales%20con%20Power%20BI)
 ---
  
-### 03 — Análisis de Ventas Retail con SQL
-Base de datos relacional con 561 transacciones y 3 tablas conectadas mediante
-foreign keys. Incluye pipeline completo: limpieza, análisis por vendedor,
-tendencia mensual con variación, ranking por categoría y detección de anomalías.
- 
-**Resultado clave:** Mayo fue el mes pico con S/. 101,539 en ventas, un 94.3%
-por encima del mes anterior. El script detecta automáticamente transacciones
-fuera de 2 desviaciones estándar del promedio.
- 
-**Herramientas:** MySQL 8.0 · JOINs · CTEs · Window Functions · RANK · LAG 
+## 03 — Análisis de Ventas Retail · SQL
 
-[Ver proyecto](./03%20—%20Análisis%20de%20Ventas%20Retail%20con%20SQL)
- 
----
+> **Impacto:** Pipeline SQL completo que detecta anomalías 
+> automáticamente — sin intervención humana.
 
-### 04 — Textil del Valle 2026 Pipeline de Datos Relacionales con MySQL 8 y Power BI
-Base de datos relacional optimizada con 1,770 transacciones integradas y 4 tablas 
-interconectadas mediante foreign keys. Incluye el pipeline completo de carga masiva 
-en la nube, simulación de estados operativos ponderados por año cronológico (2024-2026) 
-y diseño UI/UX de un Dashboard Ejecutivo en modo oscuro.
- 
-**Resultado clave:** Reducción del 80% en el tiempo de carga y estrés de CPU 
-en AWS RDS mediante directivas de inserción en bloque y transacciones agrupadas (COMMIT).
-El modelo analítico estrella detecta cuellos de botella concentrando automáticamente 
-el ~85% de la carga del 2026 en estados Pendiente y En Proceso.
- 
-**Herramientas:** MySQL 8.0 / AWS RDS · Bulk Insert · Transacciones · DDL Idempotente · Power Query · JSON Themes
+Base relacional con 561 transacciones y 3 tablas conectadas mediante 
+foreign keys. Incluye tendencia mensual con variación, ranking por 
+categoría y detección estadística de outliers.
 
-[Ver proyecto](04%20—%20Proyecto%20de%20Ingeniería%20de%20Datos%20en%20SQL%20y%20Business%20Intelligence%20Dashboard%20con%20Power%20BI%20para%20Textil%20del%20Valle.)
+**Hallazgo clave:** Mayo registró S/. 101,539 en ventas (+94.3% vs mes 
+anterior). El script detecta automáticamente transacciones fuera de 
+2 desviaciones estándar — capacidad crítica para auditoría y control 
+de fraude en retail.
+
+**Stack:** `MySQL 8.0` `JOINs` `CTEs` `Window Functions` `RANK` `LAG`
+
+![Pipeline SQL](https://github.com/dev-jesusrosas/Proyectos-Analisis-Datos/blob/22b083903cf80f98d81ebfd79e0df0e4327aef3f/03%20%E2%80%94%20An%C3%A1lisis%20de%20Ventas%20Retail%20con%20SQL/Imagenes/05-deteccion-anomalias.png)
+
+[→ Ver proyecto completo](./03%20—%20Análisis%20de%20Ventas%20Retail%20con%20SQL)
  
 ---
 
-### 05 — InkaBank 2026 Pipeline Bancario de Auditoría y Calidad de Datos con Python y Pandas
-Motor ETL automatizado en memoria RAM con 7 transacciones crudas procesadas en < 15 ms, 6 reglas
-de calidad de datos encadenadas y 2 fuentes relacionales integradas mediante LEFT JOIN nativo en Pandas.
-Incluye simulación del Core Bancario con datos intencionalmente corruptos (duplicados, nulos, negativos 
-y clientes huérfanos) y un pipeline de auditoría idempotente con alertas de seguridad automáticas.
- 
-**Resultado clave:** Detección automática del 100% de transacciones duplicadas y cuentas huérfanas sin 
-intervención humana, reduciendo el lote de 7 a 4 registros válidos mediante reglas DQ encadenadas. 
-El sistema identifica que el 25% del lote final corresponde a movimientos desde cuentas no registradas 
-en el Core, activando protocolo de cumplimiento regulatorio (SBS / UIF-Perú).
+## 04 — Pipeline de Datos Relacionales · MySQL 8 + Power BI
 
- 
-**Herramientas:** Python 3.12 · Pandas 2.x · Data Quality (DQ) · ETL en RAM · Core-Banking (OLTP) · Deduplicación · LEFT JOIN · pathlib
+> **Impacto:** Reducción del 80% en tiempo de carga a AWS RDS 
+> mediante bulk insert y transacciones agrupadas.
 
-[Ver proyecto](05%20—%20Pipeline%20Bancario%20de%20Auditoría%20y%20Calidad%20de%20Datos%20InkaBank%202026)
+Caso simulado de empresa textil peruana (sector con alta rotación de 
+inventario y complejidad logística). Base relacional con 1,770 
+transacciones, 4 tablas interconectadas y pipeline completo de carga 
+en la nube. Dashboard ejecutivo en modo oscuro con JSON Themes.
+
+**Hallazgo clave:** El modelo detecta que ~85% de la carga operativa 
+del 2026 se concentra en estados Pendiente y En Proceso — cuello de 
+botella visible solo con modelado analítico estrella.
+
+**Stack:** `MySQL 8.0` `AWS RDS` `Bulk Insert` `DDL Idempotente` 
+`Power Query` `JSON Themes`
+
+![Dashboard Textil](https://github.com/dev-jesusrosas/Proyectos-Analisis-Datos/blob/22b083903cf80f98d81ebfd79e0df0e4327aef3f/04%20%E2%80%94%20Proyecto%20de%20Ingenier%C3%ADa%20de%20Datos%20en%20SQL%20y%20Business%20Intelligence%20Dashboard%20con%20Power%20BI%20para%20Textil%20del%20Valle./imagenes/01-dashboard-modo-oscuro.png)
+
+[→ Ver proyecto completo](04%20—%20Proyecto%20de%20Ingeniería%20de%20Datos%20en%20SQL%20y%20Business%20Intelligence%20Dashboard%20con%20Power%20BI%20para%20Textil%20del%20Valle.)
  
 ---
- 
- 
-## Tecnologías
 
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)
-![Power BI](https://img.shields.io/badge/Power%20BI-F2C811?style=flat&logo=powerbi&logoColor=black)
-![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=flat&logo=mysql&logoColor=white)
-![Excel](https://img.shields.io/badge/Excel-217346?style=flat&logo=microsoft-excel&logoColor=white)
- 
-## Contacto
- 
-Jesus Muñoz Rosas  
-[LinkedIn](https://www.linkedin.com/in/jesus-mu%C3%B1oz-rosas-8180b5242/) · contacto@jesussistemas.com
+## 05 — Pipeline Bancario de Auditoría y Calidad de Datos · Python + Pandas
+
+> **Impacto:** Motor ETL que detecta el 100% de duplicados y cuentas 
+> huérfanas sin intervención humana — diseñado para escalar a 
+> volúmenes de producción.
+
+Caso simulado de core bancario peruano (InkaBank) con datos 
+intencionalmente corruptos (duplicados, nulos, negativos, clientes 
+huérfanos). Pipeline de auditoría idempotente con 6 reglas de calidad 
+encadenadas y alertas automáticas alineadas a normativa SBS / UIF-Perú.
+
+**Hallazgo clave:** El 25% del lote procesado corresponde a movimientos 
+desde cuentas no registradas en el Core, activando protocolo de 
+cumplimiento regulatorio. Arquitectura replicable a datasets de 
+producción con ajuste mínimo de parámetros.
+
+**Stack:** `Python 3.12` `Pandas 2.x` `ETL` `Data Quality` 
+`Deduplicación` `LEFT JOIN` `pathlib`
+
+![Output Pipeline](https://github.com/dev-jesusrosas/Proyectos-Analisis-Datos/blob/741d13a87916d1b85109300fac5a04a6e1bbce88/05%20%E2%80%94%20Pipeline%20Bancario%20de%20Auditor%C3%ADa%20y%20Calidad%20de%20Datos%20InkaBank%202026/imagen/Calidad_de_Datos_InkaBank_2026.png)
+
+[→ Ver proyecto completo](05%20—%20Pipeline%20Bancario%20de%20Auditoría%20y%20Calidad%20de%20Datos%20InkaBank%202026)
+
+---
+
+## Stack tecnológico
+
+| Área | Herramientas |
+|------|-------------|
+| Análisis & BI | SQL · Power BI · Excel Avanzado |
+| Bases de datos | MySQL 8.0 · AWS RDS · Modelado estrella |
+| Programación | Python 3.12 · Pandas 2.x · ETL |
+| Nube | AWS RDS · Bulk Insert · DDL Idempotente |
+
+---
+
+> *Datos utilizados en todos los proyectos son sintéticos, diseñados 
+> para simular escenarios reales del mercado peruano (retail, banca, 
+> logística textil). Ningún dato corresponde a información confidencial 
+> real.*
+
+📩 contacto@jesussistemas.com · 
+🌐 [portafolio.jesussistemas.com](http://portafolio.jesussistemas.com)
