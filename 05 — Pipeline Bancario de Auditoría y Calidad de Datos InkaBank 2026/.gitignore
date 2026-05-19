@@ -1,0 +1,28 @@
+
+# REGLA BANCARIA: EXCLUSIÓN DE DATASETS (DATA PRIVACY)
+
+# Se bloquea la subida de archivos CSV locales para cumplir con las
+# políticas de gobernanza de datos y evitar la exposición de registros.
+transacciones_sucias.csv
+maestro_clientes.csv
+auditoria_final_banco.csv
+
+
+# ARCHIVOS TEMPORALES DE PYTHON Y ENTORNO
+
+# Archivos de caché que genera Python automáticamente al ejecutar los scripts
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Carpetas ocultas de configuración de entornos virtuales o editores
+.venv/
+venv/
+env/
+.vscode/
+.idea/
+
+# Archivos temporales del sistema operativo
+.DS_Store
+Thumbs.db
